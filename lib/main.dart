@@ -1,4 +1,5 @@
 import 'package:desarrollo_movil/pages/button_page.dart';
+import 'package:desarrollo_movil/pages/contador_page.dart';
 import 'package:desarrollo_movil/pages/container_page.dart';
 import 'package:desarrollo_movil/pages/grid_view_page.dart';
 import 'package:desarrollo_movil/pages/home_page.dart';
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/buttons': (context) => const ButtonPage(),
         '/page_view': (context) => const PageViewPage(),
         '/grid_view': (context) => const GridViewPage(),
+        '/contador': (context) => const ContadorPage(),
       },
     );
   }

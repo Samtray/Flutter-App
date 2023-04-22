@@ -61,7 +61,15 @@ class HomePage extends StatelessWidget {
               trailing: const Icon(Icons.arrow_forward_ios),
               title: const Text('Grid View'),
               subtitle: const Text(
-                  'se utiliza para hacer un scroll vertical poniendo una cantidad de valores por defectos '),
+                  'se utiliza para hacer un scroll vertical poniendo una cantidad de valores por defectos'),
+            ),
+            ListTile(
+              onTap: () => {Navigator.pushNamed(context, '/contador')},
+              leading: const Icon(Icons.plus_one),
+              trailing: const Icon(Icons.arrow_forward_ios),
+              title: const Text('Contador'),
+              subtitle: const Text(
+                  'se realizara un contador para utilizar el statefulWidget'),
             )
           ],
         ));
