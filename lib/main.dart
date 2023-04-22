@@ -1,6 +1,8 @@
+import 'package:desarrollo_movil/pages/aspect_ratio_page.dart';
 import 'package:desarrollo_movil/pages/button_page.dart';
 import 'package:desarrollo_movil/pages/contador_page.dart';
 import 'package:desarrollo_movil/pages/container_page.dart';
+import 'package:desarrollo_movil/pages/flow_page.dart';
 import 'package:desarrollo_movil/pages/grid_view_page.dart';
 import 'package:desarrollo_movil/pages/home_page.dart';
 import 'package:desarrollo_movil/pages/inputs_page.dart';
@@ -34,6 +36,8 @@ class MyApp extends StatelessWidget {
         '/page_view': (context) => const PageViewPage(),
         '/grid_view': (context) => const GridViewPage(),
         '/contador': (context) => const ContadorPage(),
+        '/aspect_ratio': (context) => const AspectRatioPage(),
+        '/flow': (context) => const FlowPage(),
       },
     );
   }

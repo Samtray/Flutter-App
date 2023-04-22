@@ -70,6 +70,22 @@ class HomePage extends StatelessWidget {
               title: const Text('Contador'),
               subtitle: const Text(
                   'se realizara un contador para utilizar el statefulWidget'),
+            ),
+            ListTile(
+              onTap: () => {Navigator.pushNamed(context, '/aspect_ratio')},
+              leading: const Icon(Icons.aspect_ratio),
+              trailing: const Icon(Icons.arrow_forward_ios),
+              title: const Text('Aspect Ratio'),
+              subtitle: const Text(
+                  'se usa para que el hijo del widget se ajuste a un cierto ratio sin importar el tamaño del padre o de la pantalla'),
+            ),
+            ListTile(
+              onTap: () => {Navigator.pushNamed(context, '/flow')},
+              leading: const Icon(Icons.stacked_bar_chart),
+              trailing: const Icon(Icons.arrow_forward_ios),
+              title: const Text('Flow'),
+              subtitle: const Text(
+                  'se utiliza para acomodar tamaños y posiciones de hijos eficientemente'),
             )
           ],
         ));
